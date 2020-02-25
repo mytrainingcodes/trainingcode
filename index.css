@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-color:rgb(250, 246, 246);
+    line-height: 1;
+    display: flex;
+}
+
+.box1 .sidebar{
+    background: rgb(3, 3, 78);
+    padding: 30px 0;
+    
+}
+.box1 .sidebar h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.box1 .sidebar ol li{
+    padding: 10px;
+    color: white;
+    list-style: none;
+
+}
+.box1 .sidebar ol li a{
+    color: #2406bd;
+    text-decoration: none;
+    
+}
+.box1 .sidebar ol li:hover{
+    background: black;
+}
+
+.sidebar{
+flex: 0.8;
+}
+.head1{
+flex: 3;
+border: 1px solid grey;
+}
+.end1{
+flex: 1.5;
+background-color: darkkhaki;
+}
+
+.end1{
+    background-color: white;
+    line-height: 2;
+    padding: 20px;
+    
+}
+ol{
+    list-style: none;
+}
+.checks{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-family: monospace;
+    color: darkgrey;
+
+}
+.checks2{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+.checks3{
+    line-height: 2;
+}
+.b{
+    font-size: 22px;
+}
+
+.head1{
+    padding: 20px;  
+}
+
+input[type="checkbox"]{
+    position: relative;
+    width: 45px;
+    height: 15px;
+    background: #bdc3c7;
+    -webkit-appearance: none ;
+    border-radius: 50px;
+    outline: none;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+input:checked[type="checkbox"]{
+    background: rgb(90, 178, 212);
+}
+input[type="checkbox"]::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 20px;
+    height: 15px;
+    border-radius: 50px;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: .4s;
+}
+input:checked[type="checkbox"]::before{
+    left: 24px;
+}
+.toggle{
+    position: relative;
+    display: inline;
+}
+label{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    pointer-events: none;
+}
+.onbtn{
+    bottom: 3px;
+    left: 3px;
+}
+.offbtn{
+    bottom:3px;
+    right: 5px;
+}
+.space{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px;   
+}
+.togglebox{
+    order: 2;
+}
+
+.private p {
+    position: relative;
+    display: inline;
+}
+span{
+    font-size: 13px;
+}
+.sentence1{
+    border: 2px solid yellow;
+    padding: 10px;
+}
+.overall{
+    display: flex;
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    
+}
+
+.sentence2{
+    background-color: rgb(219, 213, 213);
+    padding: 50px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 30px;
+}
+.sentence3{
+    background-color: rgb(219, 213, 213);
+    padding: 50px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.sentence4{
+    background-color: rgb(219, 213, 213);
+    padding: 50px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 0;
+}
+
+
+.inc{
+    background-color:rgb(250, 246, 246);
+    flex: 4;
+}
+
+.ending{
+    background-color:rgb(250, 243, 243);
+    flex: 2.1;
+    padding: 15px;
+    margin-left: 1px;
+}
+
+.alll{
+    display: flex;
+}
+.boxes{
+    display: flex;
+}
+.last{
+    background-color: rgb(250, 246, 246);
+    margin-right: 20px;
+}
+.numbers{
+    display: flex;
+}
+.the_end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box6{
+    width: 180px;
+    height: 20px;
+    background-color: orange;
+}
+.box7{
+    width: 130px;
+    height: 20px;
+    background-color: red;
+}
+.box8{
+    width: 30px;
+    height: 20px;
+    background-color: orange;
+}
+.box9{
+    width: 180px;
+    height: 20px;
+    background-color: green;
+    margin-left: 5px;
+}
+.last_txt{
+    
+    color: rgb(73, 179, 173);
+    width: 200px;
+    text-align: center;
+}
+
+.num3{
+margin-left: 110px;
+width: 300px;
+}
+.num2{
+    margin-left: 100px;
+}
